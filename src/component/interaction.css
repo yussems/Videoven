@@ -1,18 +1,16 @@
 .interaction-container {
-    background-image: url('../assets/images/Vector 34.png');
-    background-repeat: no-repeat;
-
-   background-size: cover;
-   height: 150vh;
-   background-color: transparent;
-   padding: 10px;
-
+  background-image: url("../assets/images/Vector 34.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+  background-color: transparent;
+  padding: 10px;
 }
 
 .inner-interaction {
-    background-image: url('../assets/images/Vector 33.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: transparent;
-    height:100%;
+  background-image: url("../assets/images/Vector 33.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  height: 100%;
 }

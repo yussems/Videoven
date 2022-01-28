@@ -93,3 +93,33 @@ h2 {
   background: #5b44f3;
   border: none;
 }
+@media only screen and (max-width: 680px) {
+    main{
+      display: block;
+      width: 100%;
+    }
+    .ball-two{
+      display: none;
+      
+    }
+    .ball{
+      display: none;
+    }
+    .vektor-top{
+      display: none;
+    }
+    .vektor-container{
+      display: none;
+    }
+   .left-side{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+    
+  h1 {
+    width: 100%;
+  }
+
+}

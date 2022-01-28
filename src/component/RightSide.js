@@ -1,4 +1,5 @@
 import React from "react";
+import Play from "./helper/Play";
 import "./rightside.css";
 function RightSide() {
   return (
@@ -30,8 +31,10 @@ function RightSide() {
         <div className="picture-content">
           <div className="inner-input">Merhaba :)</div>
           <div className="outline-input"></div>
+          <Play />
 
-          <div className="play-cicle">
+
+          {/* <div className="play-cicle">
             <svg
               width="27"
               height="27"
@@ -44,7 +47,7 @@ function RightSide() {
                 fill="#5B44F3"
               />
             </svg>
-          </div>
+          </div> */}
           <div>
               
           </div>

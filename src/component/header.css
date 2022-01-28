@@ -3,49 +3,52 @@
   align-items: center;
   justify-content: space-evenly;
   margin-top: 28px;
-  
 }
 .logo {
-    font-size: 18px;
+  font-size: 18px;
+  line-height: 23px;
+  max-width: 80px;
 }
-ul {
+ul  {
   display: flex;
+  min-width:  300px;
+  justify-content: space-between;
   list-style-type: none;
 }
-ul li {
-    margin-left: 24px;
-}
+
 ul li a {
-    text-decoration: none;
-    font-size: 12px;
-    color: #ADADAD;
+  text-decoration: none;
+  font-size: 12px;
+  color: #adadad;
+  line-height: 15px;
 }
 ul li a:hover {
-    color: #000000;
+  color: #000000;
 }
-
 
 button {
-    font-weight: 400;
-    font-size: 14px;
-    padding: 10px 20px;
-    cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 10px 20px;
+  cursor: pointer;
+  list-style: 18px
 }
 .btn-group {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin: 0 12px;
 }
 .outline {
-    border: 1px solid #000000;
-    border-radius: 2px;
+  border: 1px solid #000000;
+  border-radius: 2px;
 }
 .solid {
-    color: #FFFFFF;
-    background-color: #000000;
-    border-radius: 2px;
-    border: 1px solid #000000;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 2px;
+  border: 1px solid #000000;
 }
 /* hover effect */
 /* .outline:hover {
@@ -58,3 +61,17 @@ button {
     border-color: transparent;
     color: #FFFFFF;
 } */
+@media only screen and (max-width: 680px) {
+  .Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  ul {
+      margin-top: 20px;
+  }
+  .btn-group {
+      margin-top: 20px;
+  }
+}

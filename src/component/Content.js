@@ -6,8 +6,9 @@ function Content() {
       <div className="left-side">
         <div className="vektor-top"></div>
         <div className="ball"></div>
-        
-        <div className="content" >
+        <div className="ball-two"></div>
+
+        <div className="content">
           <h1>İşinizi Güçlendirecek Videolar</h1>
           <h2>Artık İnteraktif</h2>
           <p className="paraf">
@@ -18,14 +19,20 @@ function Content() {
             iletişimin yeni seviyesine adım atın.
           </p>
           <button className="content-button">Hemen Deneyin</button>
-          
         </div>
         <div className="vektor-container">
-            <div className="vektor-bottom"></div>
-          </div>
+          <div className="vektor-bottom"></div>
+        </div>
       </div>
 
-      {/* right side */}
+      <div className="right-side">
+
+        <div className="right-container">
+          <div className="picture-content">
+            <div className="inner-input"></div>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }

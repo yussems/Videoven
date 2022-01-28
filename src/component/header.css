@@ -1,9 +1,11 @@
 .Header {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-top: 28px;
 }
+
 .logo {
   font-size: 18px;
   line-height: 23px;

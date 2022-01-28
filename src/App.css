@@ -1,5 +1,15 @@
+@font-face {
+  font-family: 'Euclid Circular';
+  src: local('Euclid Circular Medium'), local('Euclid-Circular-Medium'),
+      url('./assets/EuclidCircularA-Medium.woff2') format('woff2'),
+      url('./assets/EuclidCircularA-Medium.woff') format('woff'),
+      url('./assets/EuclidCircularA-Medium.woff2') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
 *{
   margin: 0;
   box-sizing: border-box;
   background-color: #ffffff;
+  font-family: 'Euclid Circular';
 }

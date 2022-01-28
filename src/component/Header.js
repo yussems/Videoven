@@ -3,7 +3,7 @@ import './header.css'
 function Header() {
   return (
     <div className="Header">
-      <p>Videoven</p>
+      <p className="logo">Videoven</p>
       <ul>
         <li>
           <a href="#">Bize Katıl</a>

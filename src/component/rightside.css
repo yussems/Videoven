@@ -1,0 +1,114 @@
+.right-side {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.right-container {
+  width: 350px;
+  height: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: relative;
+}
+.outline-container {
+  width: 248px;
+  height: 500px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  position: absolute;
+  right: 30px;
+  top: 0;
+  background: transparent;
+}
+.cont-star {
+  position: absolute;
+  background: transparent;
+  left: 20px;
+}
+
+.picture-content {
+  width: 248px;
+  height: 500px;
+  border: 10px solid #272727;
+  border-radius: 20px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/1124/4e32/cb4ae9f459b317b21b4a155b623c5817?Expires=1644192000&Signature=LzheOcUKwm-Sk~a9MdL9Lsu3IP0MHnKS8gwHpG8mqmcE~BFUGgSaGOwayXVdjQp7GvNo1F~WK2f2yqKmBRiC1EujdPtaH1P2vdRcTqxJGp6Mvaufs98hyq2AJ4fpQF7tHO1WBXFdNTw4TcjEK6KGaJg6gIrnslejkn9~uQJW-yGgXoXGTvF9fptvYCt~LK77lxSaitXv~BBKgzExsO2~PIjFgru7kEc9ogxIoVV4nM54w4XobPJoPIOjI7~isLt1OHExQH1TYo4RKVKmKEaw1eBmclHqVmYGU6~9AJOVDg1gq4u~mFhYbfPRJoX0VTgjejoSPQLHJKKSugjlThzGfg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.inner-input {
+  position: absolute;
+  width: 194px;
+  height: 48px;
+  background: #ffffff;
+  top: 25px;
+  right: 0;
+  border-radius: 100px 100px 100px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.outline-input {
+  position: absolute;
+  width: 194px;
+  height: 48px;
+  background: transparent;
+  border: 1px solid #000000;
+  top: 15px;
+  right: 0;
+  border-radius: 100px 100px 100px 0px;
+}
+.play-cicle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 98px;
+  height: 98px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+}
+.phone-paraf {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 14px;
+}
+.phone-box {
+  margin-top: 10px;
+  display: flex;
+  background-color: transparent;
+}
+.box {
+  width: 62px;
+  height: 62px;
+  margin-left: 6px;
+  margin-right: 6px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box p {
+  font-size: 10px;
+  color: #5b44f3;
+  margin-top: 10px;
+}
+.bottom-paraf {
+  background-color: transparent;
+  width: 100%;
+}
+.bottom-paraf p {
+  font-size: 12px;
+  background: rgba(94, 94, 94, 0.5);
+  color: #ffffff;
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+  text-align: center;
+}

@@ -1,2 +1,43 @@
-p{
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 28px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+ul li {
+    margin-left: 24px;
+}
+button {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.outline {
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+.solid {
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 2px;
+    border: 1px solid #000000;
+}
+.outline:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.solid:hover {
+    background-color: #FFFFFF;
+    color: #000000;
 }

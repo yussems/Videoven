@@ -2,7 +2,7 @@ import React from "react";
 import './header.css'
 function Header() {
   return (
-    <div>
+    <div className="Header">
       <p>Videoven</p>
       <ul>
         <li>
@@ -21,9 +21,9 @@ function Header() {
           <a href="#">Yardım</a>
         </li>
       </ul>
-      <div>
-          <button>Oturum Aç</button>
-          <button>Ücretsiz Dene</button>
+      <div className="btn-group">
+          <button className="outline">Oturum Aç</button>
+          <button className="solid">Ücretsiz Dene</button>
       </div>
     </div>
   );

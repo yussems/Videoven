@@ -5,7 +5,14 @@ import LeftCorner from "./svgs/LeftCorner";
 import MiddleLineSvg from "./svgs/MiddleLineSvg";
 import RightCorner from "./svgs/RightCorner";
 
-import {imageSix,imageFive,imageFour,imageThree,imageTwo, imageOne} from '../data/imagesData'
+import {
+  imageSix,
+  imageFive,
+  imageFour,
+  imageThree,
+  imageTwo,
+  imageOne,
+} from "../data/imagesData";
 
 function InteractionRightSide() {
   return (
@@ -62,17 +69,15 @@ function InteractionRightSide() {
         widths={72}
         heights={72}
       />
-      <UserHead backgroundImage={imageFive} bottom={80} widths={60} heights={60} />
       <UserHead
-        borderStyle={'solid'}
-        borderWidth={2}
-        borderColor={'#5B44F3'}
-        backgroundImage={imageOne}
-        bottom={250}
-        right={700}
-        widths={92}
-        heights={92}
+        backgroundImage={imageFive}
+        bottom={80}
+        widths={60}
+        heights={60}
       />
+      <div className="animation">
+        <img className='image-component' src={imageOne} alt="" />
+      </div>
       <UserHead
         backgroundImage={imageSix}
         bottom={60}

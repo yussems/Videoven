@@ -59,3 +59,35 @@
 
   color: #5b44f3;
 }
+.animation {
+  width: 95px;
+  border: 2px solid  #5b44f3;
+  border-radius: 50%;
+  position: absolute;
+  height: 95px;
+  bottom: 250px;
+  right: 700px;
+  animation-name: upDown;
+  animation-duration: 2s;
+  animation-iteration-count:infinite ;
+}
+@keyframes upDown {
+  0% {
+    transform: translateY(0);
+    transform: rotate(0);
+  }
+  50% {
+    transform: translateY(40px);
+    transform: rotate(20deg);
+    
+  }
+  70% {
+    transform: translateX(80px);
+  }
+  90% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

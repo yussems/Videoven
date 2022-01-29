@@ -44,26 +44,52 @@
   height: 100%;
   display: flex;
   background: transparent;
-  align-items:center;
-  justify-content: center;
+  align-items: center;
   flex-direction: column;
-
 }
 .inner-section-photo .time {
-width: 110px;
-height: 25px;
-border-radius: 20px;
-text-align: center;
-margin-top: 12px;
-background: rgba(255, 255, 255, 0.7);
-font-size: 12px;
-font-weight: 500;
-align-self: flex-start;
-display: flex;
- align-items: center;
- justify-content: center;
+  width: 110px;
+  height: 25px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 12px;
+  background: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 150px;
 }
 
-.inner-section-photo .player {
+.inner-section-photo .interaction-phone-paraf {
+  color: #6204AC;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 3px 12px;
+  margin-top: 32px;
+
+}
+.paraf-ball-container{
+  width: 100%;
+  height: 32px;
+  background-color: transparent;
+  position: relative;
+  margin-top: 40px;
+}
+
+.paraf-ball-container .phone-bottom-paraf {
+  border-top: 3px solid #6204AC;
+  width: 100%;
+  background-color: #ffffff;
+  font-size: 12px;
+  padding: 6px 12px;
+  justify-self: flex-end;
+}
+.line-ball{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #6204AC;
   
+  position: absolute;
+  top: 0;
+  right: 20px;
 }

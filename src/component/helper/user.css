@@ -1,5 +1,8 @@
 .userHead {
-    
-    background-color: red;
+    border: 3px solid black;
     border-radius: 50%;
+    position: absolute;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

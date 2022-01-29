@@ -14,7 +14,7 @@ function Interaction() {
         <div className="section-photo">
           <div className="inner-section-photo">
             <p className="time">00:06 / 00:09</p>
-            <Play className="player" color="#6204AC" />
+            <Play className="player" color="#6204AC" hover={true} />
             <p className="interaction-phone-paraf">
               Nasıl cevaplamak istersiniz?
             </p>

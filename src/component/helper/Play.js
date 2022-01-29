@@ -1,8 +1,8 @@
 import React from "react";
 
-function Play({color}) {
+function Play({color,hover}) {
   return (
-    <div className="play-cicle">
+    <div className={`play-cicle ${hover ? 'active': ''}` } >
       <svg
         width="27"
         height="27"

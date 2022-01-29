@@ -43,12 +43,21 @@
   flex-direction: column;
   transition: 0.3s;
 }
+.rightSide-bottom-container {
+  width: 100%;
+  align-self: baseline;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .picture-content:hover{
   border-color: #6204AC;
   transform: translate(-30px,-20px);
   
 }
-
 
 .inner-input {
   position: absolute;
@@ -83,6 +92,7 @@
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
 }
 .phone-paraf {
+  margin-top: 30px;
   background-color: transparent;
   color: #ffffff;
   font-size: 14px;
@@ -117,7 +127,6 @@
   background: rgba(94, 94, 94, 0.5);
   color: #ffffff;
   width: 100%;
-  border-radius: 0px 0px 20px 20px;
   text-align: center;
 }
 @media only screen and (max-width: 680px){

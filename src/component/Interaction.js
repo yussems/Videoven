@@ -2,9 +2,13 @@ import React from "react";
 import BoxModel from "./helper/BoxModel";
 import Play from "./helper/Play";
 import "./interaction.css";
+import InteractionRightSide from "./InteractionRightSide";
 function Interaction() {
   return (
     <div className="interaction-container">
+      <div className="interaction-sides">
+
+      
       <div className="container-interaction">
         <div className="section-start"></div>
         <div className="section-photo">
@@ -15,15 +19,13 @@ function Interaction() {
               Nasıl cevaplamak istersiniz?
             </p>
             <BoxModel />
-            <div className="paraf-ball-container">
-              <div className="line-ball"></div>
-              <p className="phone-bottom-paraf">
-                Göndermeden önce alıştırma yapabilirsin
-              </p>
-            </div>
+            <p className="interaction-bottom-paraf">Göndermeden önce alıştırma yapabilirsin</p>
           </div>
         </div>
       </div>
+    <InteractionRightSide />
+
+    </div>
     </div>
   );
 }

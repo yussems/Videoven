@@ -6,22 +6,28 @@
   height: 150vh;
   padding: 10px;
 }
-
-.inner-interaction {
+.interaction-sides {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+/* .inner-interaction {
   width: 100%;
   height: 100%;
   background-image: url("../assets/images/Vector 33.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
-}
+} */
+
+
 .container-interaction {
   width: 350px;
   height: 535px;
   position: relative;
 }
 .section-start {
-  margin-top: 100px;
   background-color: #e9e9e9;
   width: 305px;
   height: 475px;
@@ -60,36 +66,21 @@
 }
 
 .inner-section-photo .interaction-phone-paraf {
-  color: #6204AC;
+  color: #6204ac;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
   padding: 3px 12px;
   margin-top: 32px;
-
-}
-.paraf-ball-container{
-  width: 100%;
-  height: 32px;
-  background-color: transparent;
-  position: relative;
-  margin-top: 40px;
 }
 
-.paraf-ball-container .phone-bottom-paraf {
-  border-top: 3px solid #6204AC;
+.interaction-bottom-paraf {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  background-color: #ffffff;
   font-size: 12px;
-  padding: 6px 12px;
-  justify-self: flex-end;
-}
-.line-ball{
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #6204AC;
-  
+  color: #5E6DBA;
   position: absolute;
-  top: 0;
-  right: 20px;
+  bottom: 0;
 }

@@ -32,8 +32,7 @@ function RightSide() {
         <div className="picture-content">
           <div className="inner-input">Merhaba :)</div>
           <div className="outline-input"></div>
-          <Play color={'#5B44F3'} />
-
+          <Play color={"#5B44F3"} />
 
           {/* <div className="play-cicle">
             <svg
@@ -49,14 +48,13 @@ function RightSide() {
               />
             </svg>
           </div> */}
-          <div>
-              
-          </div>
-          <p className="phone-paraf">Nasıl cevaplamak istersiniz?</p>
+          <div className="rightSide-bottom-container">
+            <p className="phone-paraf">Nasıl cevaplamak istersiniz?</p>
 
-          <BoxModel />
-          <div className="bottom-paraf">
-            <p>videoven tarafından gönderildi</p>
+            <BoxModel />
+            <div className="bottom-paraf">
+              <p>videoven tarafından gönderildi</p>
+            </div>
           </div>
         </div>
       </div>

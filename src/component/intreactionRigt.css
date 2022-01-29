@@ -1,0 +1,42 @@
+.userContent-İnteraction {
+  width: 70%;
+  height: 100%;
+  display: flex;
+}
+.interaction-head {
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 400;
+  width: 500px;
+  height: 90px;
+}
+.right-box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.interaction-card {
+  width: 410px;
+  height: 205px;
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0px 8px 20px rgba(204, 204, 204, 0.25);
+  border-radius: 10px;
+  
+}
+.interaction-card p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+}
+.left-top-corner {
+    position: absolute;
+    left: 0;
+    top: 0;  
+}
+.right-bottom-corner {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

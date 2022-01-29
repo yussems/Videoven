@@ -1,20 +1,24 @@
 import React from "react";
 import "./user.css";
-function UserHead({ widths, heights, left, top, right, bottom, backgroundImage }) {
-  console.log(backgroundImage);
+function UserHead({ widths, heights, left, top, right, bottom, backgroundImage,borderColor,borderWidth,borderStyle }) {
   return (
     <div
       className="userHead"
       style={{
+        borderStyle,
+        borderWidth,
+        borderColor,
         width: widths,
         height: heights,
         left,
         right,
         bottom,
         top,
-        backgroundImage: backgroundImage,
+        
       }}
-    ></div>
+    >
+      <img className="image-component" src={backgroundImage} alt="" />
+    </div>
   );
 }
 

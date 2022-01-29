@@ -5,12 +5,7 @@ import LeftCorner from "./svgs/LeftCorner";
 import MiddleLineSvg from "./svgs/MiddleLineSvg";
 import RightCorner from "./svgs/RightCorner";
 
-import imageOne from "../assets/images/userimages/image1.png";
-import imageTwo from "../assets/images/userimages/image2.png";
-import imageThree from "../assets/images/userimages/image3.png";
-import imageFour from "../assets/images/userimages/image4.png";
-import imageFive from "../assets/images/userimages/image5.png";
-import imageSix from "../assets/images/userimages/image6.png";
+import {imageSix,imageFive,imageFour,imageThree,imageTwo, imageOne} from '../data/imagesData'
 
 function InteractionRightSide() {
   return (
@@ -53,31 +48,40 @@ function InteractionRightSide() {
         </div>
       </div>
 
-      <UserHead deneme='selam'  background={imageOne} right={0} widths={127} heights={127} />
       <UserHead
-        backgroundImage={imageSix}
+        deneme="selam"
+        backgroundImage={imageTwo}
+        right={0}
+        widths={124}
+        heights={124}
+      />
+      <UserHead
+        backgroundImage={imageFour}
         top={210}
         right={200}
         widths={72}
         heights={72}
       />
-      <UserHead background={imageTwo} bottom={80} widths={60} heights={60} />
+      <UserHead backgroundImage={imageFive} bottom={80} widths={60} heights={60} />
       <UserHead
-        background={imageFour}
+        borderStyle={'solid'}
+        borderWidth={2}
+        borderColor={'#5B44F3'}
+        backgroundImage={imageOne}
         bottom={250}
         right={700}
-        widths={93}
-        heights={93}
+        widths={92}
+        heights={92}
       />
       <UserHead
-        background={imageThree}
+        backgroundImage={imageSix}
         bottom={60}
         right={450}
-        widths={51}
-        heights={51}
+        widths={50}
+        heights={50}
       />
       <UserHead
-        background={imageFive}
+        backgroundImage={imageThree}
         right={400}
         top={80}
         widths={62}

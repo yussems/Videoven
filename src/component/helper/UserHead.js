@@ -15,7 +15,7 @@ function UserHead({ widths, heights, left, top, right, bottom, backgroundImage})
         
       }}
     >
-      <img className="image-component" src={backgroundImage} alt="" />
+      <img className="image-component" src={backgroundImage} alt="User Picture" />
     </div>
   );
 }

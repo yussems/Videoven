@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import FooterSvgOne from "./svgs/FooterSvgOne";
 import FooterSvgTwo from "./svgs/FooterSvgTwo";
+const footerImage = 'https://s3-alpha-sig.figma.com/img/f21d/ffed/3adfee600b9defd7b51e9d36fd122a55?Expires=1644192000&Signature=IlHEMSNVSjf5wFQi~VMp93eExgVmiqWJIwo87bM-6m2yJs7~7aphepD5yKwKx1EU4sqNN-Voure3pAZJmwfYT8cFo8OaAjcXB88CNgNXFB3skmrUs9hziSJiXMGNLA0FIocnIw3AdGXyHc5yMUGa~knTPTzmC3l4TVlSbE4oYeXZo9n13cYhY1405RQnHpQF0zEiGhF8nd-s1LgLKtT8noE48AHkUQDudFunUykFjsvspIctHdJblalPEAeNXG5G7vcWc~9cIgu4SrgN1R5TIR~Cfs~tuCdpVMNR4UsUT~GofHzOhD-L528u4oUSasqP1pV43PiF460oRYLdYHgyzQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA'
 function Footer() {
   return (
     <div className="footer-first">
@@ -97,7 +98,13 @@ function Footer() {
         <FooterSvgOne />
         <FooterSvgTwo />
         <div className="footer-content">
-            selam
+          <div className="footer-boxes">
+            <div className="footer-leftSide">left side</div>
+            <div className="footer-middle">
+                <img src={footerImage} alt="" />
+            </div>
+            <div className="footer-rightside">rightside</div>
+          </div>
         </div>
       </div>
     </div>

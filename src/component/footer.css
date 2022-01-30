@@ -85,6 +85,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+.footer-play {
+    position: relative;
+    width: 400px;
+    height: 400px;
 }
 .footer-middle img {
     object-fit: cover;
@@ -92,6 +98,12 @@
     height: 400px;
     border-radius: 30px;
 
+}
+.footer-middle-play{
+    border-radius: 50%;
+    position: absolute;
+    left: 170px;
+    top: 170px;
 }
 .footer-rightside {
   flex: 1;

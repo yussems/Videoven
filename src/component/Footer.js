@@ -6,8 +6,7 @@ import FooterSvgTwo from "./svgs/FooterSvgTwo";
 import SvgFooterContainer from "./svgs/SvgFooterContainer";
 import { footerImage } from "../data/imagesData";
 import SvgStart from "./svgs/SvgStart";
-import FooterButton from "./AntdesignCustomComponent/FooterButton";
-import { Button } from "antd";
+
 import FooterRightSide from "./FooterRightSide";
 import FooterLeftSide from "./FooterLeftSide";
 

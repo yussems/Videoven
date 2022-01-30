@@ -96,32 +96,33 @@ h2 {
   cursor: pointer;
 }
 @media only screen and (max-width: 680px) {
-    main{
-      display: block;
-      width: 100%;
-    }
-    .ball-two{
-      display: none;
-      
-    }
-    .ball{
-      display: none;
-    }
-    .vektor-top{
-      display: none;
-    }
-    .vektor-container{
-      display: none;
-    }
-   .left-side{
-     width: 100%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-    }
-    
+  main {
+    display: block;
+    width: 100%;
+  }
+  .ball-two {
+    display: none;
+  }
+  .ball {
+    display: none;
+  }
+  .vektor-top {
+    display: none;
+  }
+  .vektor-container {
+    display: none;
+  }
+  .left-side {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content {
+    margin-left: 0;
+  }
+
   h1 {
     width: 100%;
   }
-
 }

@@ -22,6 +22,7 @@ function FooterButton() {
     <DeleteOutlined />  
       <a href="#">Çöp Kutusu</a>
   </button>
+  <button className="footer-leftside-button active">Yeni Video</button>
 </div>
 }
 

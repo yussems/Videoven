@@ -53,3 +53,11 @@
 .answer-active-page p{
     color: #ADADAD;
 }
+@media only screen and (max-width: 680px) {
+    
+    .footer-rightside {
+      display: none;
+    }
+  
+  
+  }

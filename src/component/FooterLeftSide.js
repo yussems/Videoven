@@ -10,8 +10,7 @@ function FooterLeftSide() {
       </div>
       <InputSelect />
       <FooterButton />
-
-      <button className="footter-submit-btn">Yeni Video</button>
+        
     </div>
   );
 }

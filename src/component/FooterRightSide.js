@@ -11,7 +11,7 @@ import InputSelect from "./helper/InputSelect";
 import { Checkbox } from "antd";
 
 function FooterRightSide() {
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState(true);
   const handleClick = () => {
     setActive(!active);
   };

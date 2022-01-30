@@ -21,7 +21,7 @@ function InteractionRightSide() {
         <h3 className="interaction-head">
           Güçlü Bir İletişim İçin Videoyla Hitap Edin
         </h3>
-        <MiddleLineSvg className="svgMiddleline" />
+        <MiddleLineSvg  />
         <div className="right-box">
           <div className="interaction-card">
             <div className="left-top-corner">

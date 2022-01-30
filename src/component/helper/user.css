@@ -8,3 +8,10 @@
     object-fit: cover;
     border-radius: 50%;
 }
+@media only screen and (max-width: 680px){
+    .userHead {
+        display: none;
+    }
+
+
+}

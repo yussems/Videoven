@@ -1,8 +1,9 @@
 import React from "react";
-
+import './middle.css'
 function MiddleLineSvg() {
   return (
     <svg
+    className="middleLine"
       width="705"
       height="297"
       viewBox="0 0 705 297"

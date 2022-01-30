@@ -91,3 +91,22 @@
     transform: translateY(0);
   }
 }
+
+@media only screen and (max-width: 680px){
+  .userContent-İnteraction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .interaction-head {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    
+  }
+  .right-box {
+    display: none;
+  }
+
+}

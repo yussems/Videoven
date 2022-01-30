@@ -4,6 +4,9 @@
   background-size: cover;
   width: 100%;
   height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 10px;
 }
 .interaction-sides {
@@ -87,6 +90,7 @@
 @media only screen and (max-width: 680px){
   .interaction-container {
     margin: 0;
+    padding: 0;
     background-image: none;
     width: 100%;
     height: 100%;

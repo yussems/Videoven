@@ -1,6 +1,6 @@
 # Project Link Vercel :[Videoven](https://videoven.vercel.app/)
 
-git clone && npm start probably starting http://localhost:3000
+git clone && cd videoven && npm install react-scripts --save && npm start probably starting http://localhost:3000
 
 # Getting Started with Create React App
 

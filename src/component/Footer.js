@@ -4,8 +4,12 @@ import Play from "./helper/Play";
 import FooterSvgOne from "./svgs/FooterSvgOne";
 import FooterSvgTwo from "./svgs/FooterSvgTwo";
 import SvgFooterContainer from "./svgs/SvgFooterContainer";
-import {footerImage} from '../data/imagesData'
+import { footerImage } from "../data/imagesData";
 import SvgStart from "./svgs/SvgStart";
+import FooterButton from "./AntdesignCustomComponent/FooterButton";
+import { Button } from "antd";
+import FooterRightSide from "./FooterRightSide";
+import FooterLeftSide from "./FooterLeftSide";
 
 function Footer() {
   return (
@@ -23,23 +27,24 @@ function Footer() {
 
       <div className="footer-container">
         <div className="svg-footer-container">
-         <SvgFooterContainer/>
+          <SvgFooterContainer />
         </div>
 
         <FooterSvgOne />
         <FooterSvgTwo />
         <div className="footer-content">
           <div className="footer-boxes">
-            <div className="footer-leftSide">left side</div>
+            <FooterLeftSide />
             <div className="footer-middle">
-                <div className="footer-play">
-                    <div className="footer-middle-play">
-                        <Play color={'#5B44F3'} hover={true} />
-                    </div>
-                    <img src={footerImage} alt="" />
+              <div className="footer-play">
+                <div className="footer-middle-play">
+                  <Play color={"#5B44F3"} hover={true} />
                 </div>
+                <img src={footerImage} alt="" />
+              </div>
             </div>
-            <div className="footer-rightside">rightside</div>
+              <FooterRightSide />
+            
           </div>
         </div>
       </div>

@@ -28,7 +28,7 @@ ul li a:hover {
   color: #000000;
 }
 
-button {
+.btn-group button {
   font-weight: 400;
   font-size: 14px;
   padding: 10px 20px;
